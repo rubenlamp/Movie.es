@@ -41,6 +41,8 @@
   content: "\e9da";
 }
 
+/* STYLES PART */
+
 body {
   font-family: 'Roboto Slab', serif;
   max-width: 95%;
@@ -59,9 +61,13 @@ h1{
   grid-template-rows: repeat(auto, 500px);
   grid-gap: 1em;
 }
+.Movie-section .review{
+  grid-auto-rows: 300px ;
+}
 figure{
   margin: 0;
 }
 figure img{
+  
   width: 100%;
 }
