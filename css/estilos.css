@@ -8,7 +8,7 @@ h1{
 }
 .header-container{
   display: grid;
-  grid-template-columns:  ;
+  grid-template-columns: repeat(4, 400px) ;
 }
 .Movie-section{
   display: grid;
