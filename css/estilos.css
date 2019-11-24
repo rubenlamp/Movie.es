@@ -13,6 +13,7 @@ h1{
 .Movie-section{
   display: grid;
   grid-template-columns: repeat(7, minmax(200px, 250px));
+  grid-template-rows: repeat(auto, 500px);
   grid-gap: 1em;
 }
 figure{
