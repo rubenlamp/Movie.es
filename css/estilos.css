@@ -1,7 +1,23 @@
 body {
   font-family: 'Roboto Slab', serif;
-
+  max-width: 95%;
+  justify-content: center;
 }
 h1{
   font-family: 'Solway', serif;
+}
+.header-container{
+  display: grid;
+  grid-template-columns:  ;
+}
+.Movie-section{
+  display: grid;
+  grid-template-columns: repeat(7, minmax(200px, 250px));
+  grid-gap: 1em;
+}
+figure{
+  margin: 0;
+}
+figure img{
+  width: 100%;
 }
